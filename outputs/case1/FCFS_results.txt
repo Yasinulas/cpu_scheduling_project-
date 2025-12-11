@@ -1,0 +1,45 @@
+=== FCFS RESULTS ===
+Case: case1
+Number of processes: 200
+
+a) Waiting Times:
+-----------------
+Average Waiting Time: 813.5
+Maximum Waiting Time: 1683
+
+b) Turnaround Times:
+--------------------
+Average Turnaround Time: 824.0
+Maximum Turnaround Time: 1703
+
+c) Throughput:
+--------------
+T=50: 9 processes completed
+T=100: 13 processes completed
+T=150: 16 processes completed
+T=200: 19 processes completed
+
+d) CPU Efficiency:
+------------------
+CPU Efficiency: 99.95%
+
+e) Context Switches:
+--------------------
+Total Context Switches: 199
+
+Sample Process Details (first 10):
+===================================
+PID	Arrival	Burst	Priority	Start	Finish	Waiting	Turnaround
+--------------------------------------------------------------------------------
+P001	0	1	high	0	1	0	1
+P002	2	2	normal	2	4	0	2
+P003	4	3	low	4	7	0	3
+P004	6	4	high	7	11	1	5
+P005	8	5	normal	11	16	3	8
+P006	10	6	low	16	22	6	12
+P007	12	7	high	22	29	10	17
+P008	14	8	normal	29	37	15	23
+P009	16	9	low	37	46	21	30
+P010	18	10	high	46	56	28	38
+
+... and 190 more processes

@@ -1,0 +1,24 @@
+=== CPU SCHEDULING ALGORITHMS REPORT ===
+Case: case1
+Generated on: 2024
+================================================================================
+
+PERFORMANCE COMPARISON:
+====================================================================================================
+Algorithm                 Avg Wait     Avg Turn     CPU Eff%   Throughput@200 
+----------------------------------------------------------------------------------------------------
+FCFS                      813.50       824.00       99.95      19             
+
+
+ANALYSIS:
+==================================================
+Best Performers:
+• Best Average Waiting Time: FCFS (813.50 time units)
+• Best Average Turnaround Time: FCFS (824.00 time units)
+• Highest CPU Efficiency: FCFS (99.95%)
+
+Conclusion:
+• FCFS is simple but has higher waiting times
+• SJF algorithms provide better response times
+• Round Robin ensures fairness
+• Priority scheduling is useful for real-time systems
